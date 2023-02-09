@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ENTRY timestamp='15:51:44'>create database Intro_SQL</ENTRY>
+<ENTRY timestamp='15:52:26'>use Intro_SQL</ENTRY>
+<ENTRY timestamp='15:58:08'>(&#x0A;student_id int,&#x0A;student_name varchar(50),&#x0A;age int,&#x0A;gender varchar(1),&#x0A;location varchar(100)&#x0A;&#x0A;)</ENTRY>
+<ENTRY timestamp='15:58:19'>create table Students</ENTRY>
+<ENTRY timestamp='15:58:58'>create table Students&#x0A;(&#x0A;student_id int,&#x0A;student_name varchar(50),&#x0A;age int,&#x0A;gender varchar(1),&#x0A;location varchar(100)&#x0A;&#x0A;)</ENTRY>
+<ENTRY timestamp='15:59:33'>select * from students</ENTRY>
+<ENTRY timestamp='14:34:57'>use intro_sql</ENTRY>
+<ENTRY timestamp='14:36:43'>create table empinfo&#x0A;(&#x0A;first_name varchar(30),&#x0A;last_name varchar(30),&#x0A;id int,&#x0A;age int,&#x0A;city varchar(30),&#x0A;state varchar(30)&#x0A;)</ENTRY>
+<ENTRY timestamp='14:36:53'>show tables</ENTRY>
+<ENTRY timestamp='14:37:51'>select * from empinfo</ENTRY>
+<ENTRY timestamp='14:39:00'>drop table empinfo</ENTRY>
+<ENTRY timestamp='14:39:06'>show tables</ENTRY>
+<ENTRY timestamp='14:39:56'>create table empinfo&#x0A;(&#x0A;first_name varchar(30),&#x0A;last_name varchar(30),&#x0A;id int not null ,&#x0A;age int,&#x0A;city varchar(30),&#x0A;state varchar(30),&#x0A;PRIMARY KEY(id)&#x0A;)</ENTRY>
+<ENTRY timestamp='14:40:02'>show tables</ENTRY>
+<ENTRY timestamp='14:40:13'>select * from empinfo</ENTRY>
+<ENTRY timestamp='14:52:50'>select first_name,last_name from empinfo</ENTRY>
+<ENTRY timestamp='16:58:51'>select count(id) from empinfo</ENTRY>
+<ENTRY timestamp='16:59:16'>select count(*) from empinfo</ENTRY>
+<ENTRY timestamp='17:01:02'>select count(id) from empinfo</ENTRY>
+<ENTRY timestamp='17:02:33'>select count(*) from empinfo</ENTRY>
+<ENTRY timestamp='17:06:24'>select count(id) as record_count from empinfo</ENTRY>
+<ENTRY timestamp='17:06:40'>select count(id) from empinfo</ENTRY>
+<ENTRY timestamp='17:06:48'>elect count(id) as record_count from empinfo.</ENTRY>
+<ENTRY timestamp='17:06:56'>select count(id) as record_count from empinfo</ENTRY>
+<ENTRY timestamp='17:26:53'>select * from empinfo where age&gt;30</ENTRY>
+<ENTRY timestamp='17:29:47'>select * from empinfo where age&gt;30 and &lt;50</ENTRY>
+<ENTRY timestamp='17:30:04'>~</ENTRY>
+<ENTRY timestamp='17:30:39'>select * from empinfo where age&gt;30 and &lt; 50</ENTRY>
+<ENTRY timestamp='17:40:30'>select * from empinfo where first_name like 'a%'</ENTRY>
+<ENTRY timestamp='17:51:11'>select * from empinfo where last_name like '%s'</ENTRY>
+<ENTRY timestamp='09:52:47'>show databases</ENTRY>
+<ENTRY timestamp='09:53:12'>select * from cardataset1</ENTRY>
+<ENTRY timestamp='09:53:34'>show databases</ENTRY>
+<ENTRY timestamp='09:54:27'>use cardataset1</ENTRY>
+<ENTRY timestamp='09:54:31'>show tables</ENTRY>
+<ENTRY timestamp='09:54:41'>use cardataset&#x0A;show tables</ENTRY>
+<ENTRY timestamp='09:54:45'>use cardataset</ENTRY>
+<ENTRY timestamp='09:54:52'>show tables</ENTRY>
+<ENTRY timestamp='09:55:21'>select * from test</ENTRY>
+<ENTRY timestamp='09:55:31'>show tables</ENTRY>
+<ENTRY timestamp='09:55:37'>select * from car</ENTRY>
+<ENTRY timestamp='09:55:53'>show databases</ENTRY>
+<ENTRY timestamp='09:56:12'>use geeta</ENTRY>
+<ENTRY timestamp='09:56:15'>show tables</ENTRY>
+<ENTRY timestamp='09:56:43'>select * from Tables_in_geeta</ENTRY>
+<ENTRY timestamp='09:56:52'>elect * from geeta</ENTRY>
+<ENTRY timestamp='09:56:57'>select * from geeta</ENTRY>
+<ENTRY timestamp='09:57:06'>show databases</ENTRY>
+<ENTRY timestamp='09:57:19'>use mysql</ENTRY>
+<ENTRY timestamp='09:57:27'>show tables</ENTRY>
+<ENTRY timestamp='09:58:24'>select * from mysql</ENTRY>
+<ENTRY timestamp='09:58:58'>show tables</ENTRY>
+<ENTRY timestamp='09:59:40'>select * from mysql where engine_cost like &gt;20</ENTRY>
+<ENTRY timestamp='09:59:57'>select * from mysql where engine_cost</ENTRY>
+<ENTRY timestamp='10:00:16'>show tables</ENTRY>
+<ENTRY timestamp='10:01:17'>select * from mysql</ENTRY>
+<ENTRY timestamp='10:01:45'>show tables</ENTRY>
+<ENTRY timestamp='10:01:53'>select * from db</ENTRY>
+<ENTRY timestamp='10:02:04'>show tables</ENTRY>
+<ENTRY timestamp='10:02:14'>select * from engine_cost</ENTRY>
+<ENTRY timestamp='10:02:42'>select * from engine_cost where device_type like 0</ENTRY>
+<ENTRY timestamp='10:02:57'>select * from engine_cost where device_type = 0</ENTRY>
+<ENTRY timestamp='10:03:26'>show tables</ENTRY>
+<ENTRY timestamp='10:03:46'>select * from component</ENTRY>
+<ENTRY timestamp='10:03:53'>show databases</ENTRY>
+<ENTRY timestamp='10:04:02'>use car</ENTRY>
+<ENTRY timestamp='10:04:05'>show tables</ENTRY>
+<ENTRY timestamp='10:04:20'>select * from tables_in_car</ENTRY>
+<ENTRY timestamp='10:04:24'>show tables</ENTRY>
+<ENTRY timestamp='10:04:38'>select * from Tables_in_car</ENTRY>
+<ENTRY timestamp='10:04:57'>show tables</ENTRY>
+<ENTRY timestamp='10:05:12'>select * from Tables_in_car</ENTRY>
+<ENTRY timestamp='10:05:16'>show databases</ENTRY>
+<ENTRY timestamp='10:05:30'>use sakilla</ENTRY>
+<ENTRY timestamp='10:05:36'>show databases</ENTRY>
+<ENTRY timestamp='10:05:44'>use sakila</ENTRY>
+<ENTRY timestamp='10:05:48'>show tables</ENTRY>
+<ENTRY timestamp='10:06:02'>select * from actor</ENTRY>
+<ENTRY timestamp='10:06:42'>select * from actor where first_name like &quot;%e&quot;</ENTRY>
+<ENTRY timestamp='10:07:09'>select * from actor where first_name = &quot;%e&quot;</ENTRY>
+<ENTRY timestamp='10:07:22'>select * from actor where first_name = &quot;%E&quot;</ENTRY>
+<ENTRY timestamp='10:07:33'>~</ENTRY>
+<ENTRY timestamp='10:07:43'>select * from actor where first_name like &quot;%E&quot;</ENTRY>
+<ENTRY timestamp='10:08:01'>select count(*) from actor where first_name like &quot;%E&quot;</ENTRY>
+<ENTRY timestamp='10:08:20'>show tables</ENTRY>
+<ENTRY timestamp='10:08:59'>select * from address</ENTRY>
+<ENTRY timestamp='10:09:14'>show databases&#x0A;use sakila&#x0A;show tables&#x0A;select count(*) from address</ENTRY>
+<ENTRY timestamp='10:09:18'>select count(*) from address</ENTRY>
+<ENTRY timestamp='10:09:36'>select * from address</ENTRY>
+<ENTRY timestamp='10:10:31'>select * from address where district like &quot;%0&quot;</ENTRY>
+<ENTRY timestamp='10:10:41'>select * from address where district like &quot;%o&quot;</ENTRY>
+<ENTRY timestamp='10:10:57'>select count(*) from address where district like &quot;%o&quot;</ENTRY>
+<ENTRY timestamp='10:11:08'>show tables</ENTRY>
+<ENTRY timestamp='10:11:43'>select * from film</ENTRY>
+<ENTRY timestamp='10:12:23'>select * from film  where title like &quot;ra%&quot;</ENTRY>
+<ENTRY timestamp='10:12:35'>select count(*) from film  where title like &quot;ra%&quot;</ENTRY>
+<ENTRY timestamp='10:12:43'>select count(*) from film  where title = &quot;ra%&quot;</ENTRY>
+<ENTRY timestamp='10:12:54'>show tables</ENTRY>
+<ENTRY timestamp='10:13:19'>select * from sales_by_film_category</ENTRY>
+<ENTRY timestamp='10:14:32'>select * from sales_by_film_category  where total_sales &gt;450</ENTRY>
+<ENTRY timestamp='10:15:05'>select * from sales_by_film_category  where total_sales &gt; 450</ENTRY>
+<ENTRY timestamp='10:15:24'>select * from sales_by_film_category  where total_sales &gt; 4500</ENTRY>
+<ENTRY timestamp='10:15:38'>select count(*) from sales_by_film_category  where total_sales &gt; 4500</ENTRY>
+<ENTRY timestamp='10:15:49'>show tables</ENTRY>
+<ENTRY timestamp='10:16:10'>select * from language</ENTRY>
+<ENTRY timestamp='10:16:54'>select * from language where language_id like &quot;English&quot;</ENTRY>
+<ENTRY timestamp='10:17:08'>select * from language</ENTRY>
+<ENTRY timestamp='10:17:34'>select * from language  where name like &quot;english&quot;</ENTRY>
+<ENTRY timestamp='10:20:56'>show tables</ENTRY>
+<ENTRY timestamp='10:21:11'>select * from actor</ENTRY>
+<ENTRY timestamp='10:21:40'>select * from actor where actor_id like 5 and 7</ENTRY>
+<ENTRY timestamp='10:22:01'>select * from actor where actor_id like 5 or 7</ENTRY>
+<ENTRY timestamp='10:22:14'>select * from actor where actor_id like 5 , 7</ENTRY>
+<ENTRY timestamp='10:22:23'>select * from actor where actor_id like 5 and 7</ENTRY>
+<ENTRY timestamp='10:23:33'>select * from actor where actor_id=5 or actror_id =7</ENTRY>
+<ENTRY timestamp='10:23:51'>select * from actor where actor_id = 5 or actror_id   =7</ENTRY>
+<ENTRY timestamp='10:24:22'>show tables</ENTRY>
+<ENTRY timestamp='10:24:36'>select * from actor</ENTRY>
+<ENTRY timestamp='10:25:03'>select * from actor where actor_id = 5</ENTRY>
+<ENTRY timestamp='10:25:15'>select * from actor where actor_id = 5or actor_id= 7</ENTRY>
+<ENTRY timestamp='10:26:01'>select * from empinfo where age=22 or age= 32</ENTRY>
+<ENTRY timestamp='10:26:21'>select * from empinfo where age = 22 or age = 32</ENTRY>
+<ENTRY timestamp='10:26:42'>use sakila</ENTRY>
+<ENTRY timestamp='10:26:45'>show tables</ENTRY>
+<ENTRY timestamp='10:26:48'>select * from actor where actor_id = 5or actor_id= 7</ENTRY>
+<ENTRY timestamp='10:26:56'>select * from actor where actor_id = 5 or actor_id= 7</ENTRY>
+<ENTRY timestamp='10:27:15'>select * from actor where actor_id = 5 and actor_id= 7</ENTRY>
+<ENTRY timestamp='10:27:23'>select * from actor where actor_id = 5 or actor_id= 7</ENTRY>
+<ENTRY timestamp='10:30:09'>select * from actor where actor_id in (5,7)</ENTRY>
+<ENTRY timestamp='10:31:47'>select * from actor where actor_id in (15,14,12,11,13)</ENTRY>
+<ENTRY timestamp='10:40:36'>show tables</ENTRY>
+<ENTRY timestamp='10:40:51'>select * from actor</ENTRY>
+<ENTRY timestamp='10:42:51'>select * from actor where first_name like &quot;%a%&quot;</ENTRY>
+<ENTRY timestamp='10:49:21'>select * from actor where first_name = &quot;karl&quot;</ENTRY>
+<ENTRY timestamp='10:51:38'>select * from actor where first_name = &quot;karl&quot; and actor_id=4</ENTRY>
+<ENTRY timestamp='10:52:22'>select * from actor where first_name = &quot;karl&quot;</ENTRY>
+<ENTRY timestamp='10:52:42'>select * from actor where first_name = &quot;karl&quot; and  last_name = &quot;berry&quot;</ENTRY>
+<ENTRY timestamp='11:13:44'>select * from actor where first_name = &quot;karl&quot;</ENTRY>
+<ENTRY timestamp='11:14:01'>select * from actor where first_name = &quot;karl&quot; show last_update</ENTRY>
+<ENTRY timestamp='11:14:11'>select * from actor where first_name = &quot;karl&quot;</ENTRY>
+<ENTRY timestamp='11:43:43'>show databases</ENTRY>
+<ENTRY timestamp='11:43:48'>use sakila</ENTRY>
+<ENTRY timestamp='11:43:54'>show tables</ENTRY>
+<ENTRY timestamp='11:44:17'>select * from actor</ENTRY>
+<ENTRY timestamp='11:45:29'>select * from actor where actor_id/2=0</ENTRY>
+<ENTRY timestamp='11:45:56'>select * from actor where actor_id/2 like 0</ENTRY>
+<ENTRY timestamp='11:47:19'>select * from actor where (actor_id/2) like 0</ENTRY>
+<ENTRY timestamp='11:47:26'>select * from actor</ENTRY>
+<ENTRY timestamp='11:47:49'>select * from actor where actor_id=2</ENTRY>
+<ENTRY timestamp='11:47:59'>select * from actor where actor_id=(2,4,6)</ENTRY>
+<ENTRY timestamp='11:48:08'>select * from actor where actor_id in (2,4,6)</ENTRY>
+<ENTRY timestamp='11:48:29'>select * from actor where actor_id in (actor_id/2=0)</ENTRY>
+<ENTRY timestamp='11:50:06'>select * from actor where actor_id in (actor_id/2%0)</ENTRY>
+<ENTRY timestamp='11:50:54'>select * from actor where actor_id%0</ENTRY>
+<ENTRY timestamp='11:51:15'>select * from actor where actor_id %2 = 0</ENTRY>
+<ENTRY timestamp='11:57:24'>select distinct actor_id from actor where actor_id %2 = 0</ENTRY>
+<ENTRY timestamp='11:57:42'>select * actor_id from actor where actor_id %2 = 0</ENTRY>
+<ENTRY timestamp='13:56:05'>use sakila</ENTRY>
+<ENTRY timestamp='13:56:20'>show tables</ENTRY>
+<ENTRY timestamp='13:56:37'>select * from city</ENTRY>
+<ENTRY timestamp='13:57:48'>select * from city where city like &quot;%a&quot; or &quot;%e&quot; or &quot;%i&quot; or &quot;%o&quot; or &quot;%u</ENTRY>
+<ENTRY timestamp='13:58:07'>select * from city</ENTRY>
+<ENTRY timestamp='13:58:30'>select * from city where city like &quot;%a&quot; or &quot;%e&quot;</ENTRY>
+<ENTRY timestamp='13:58:54'>select * from city where city like &quot;%a&quot; and &quot;%e&quot;</ENTRY>
+<ENTRY timestamp='13:59:13'>select * from city where = &quot;%a&quot; or  &quot;%e&quot;</ENTRY>
+<ENTRY timestamp='13:59:28'>select * from city where city  = &quot;%a&quot; or  &quot;%e&quot;</ENTRY>
+<ENTRY timestamp='13:59:54'>select city from city</ENTRY>
+<ENTRY timestamp='14:00:34'>select city from city where city like &quot;%a,e,i,o,u</ENTRY>
+<ENTRY timestamp='14:00:40'>show databases&#x0A;use sakila&#x0A;show tables&#x0A;#we want actor id list whose actor id is 5 and 7.&#x0A;select * from actor where actor_id = 5 or actor_id= 7&#x0A;#in opeerator will do the same task.&#x0A;select * from actor where actor_id in (5,7)&#x0A;#if we want actor id of 15,14,12,11,13. it will be a huge task if we perform through queery no. 6&#x0A;select * from actor where actor_id in (15,14,12,11,13)&#x0A;#this is how our select query works, dql query works&#x0A;select * from actor where first_name like &quot;%a%&quot;&#x0A;#i want to find out whether we have a in behining or ending or wherever in the name we are having a, list of people who are gaving a in them.&#x0A;#if i want complete details of karl., equal to opeartor is used for this.&#x0A;select * from actor where first_name = &quot;karl&quot; &#x0A;&#x0A;#if i want to see the record by using multiple columns&#x0A;select * from actor where first_name = &quot;karl&quot; and  last_name = &quot;berry&quot;&#x0A;&#x0A;#this is how we do dql with data.\&#x0A;#my own practice\&#x0A;show databases&#x0A;use sakila&#x0A;select city from city where city like &quot;%a,e,i,o,u&quot;</ENTRY>
+<ENTRY timestamp='14:01:02'>select city from city where city like &quot;%a,e,i,o,u&quot;</ENTRY>
+<ENTRY timestamp='14:01:24'>select city from city where city like &quot;%a,%e,%i,%o,%u&quot;</ENTRY>
+<ENTRY timestamp='14:02:57'>select city from city where city like &quot;%a&quot; or city like &quot;%e&quot; or city like &quot;%i&quot; or city like &quot;%o&quot;</ENTRY>
+<ENTRY timestamp='14:17:15'>show tables</ENTRY>
+<ENTRY timestamp='13:57:52'>show databases</ENTRY>
+<ENTRY timestamp='13:58:06'>use intor_sql</ENTRY>
+<ENTRY timestamp='13:58:18'>use intro_sql</ENTRY>
+<ENTRY timestamp='13:59:32'>~</ENTRY>
+<ENTRY timestamp='13:59:53'>create table empinfooo&#x0A;(&#x0A;first_name varchar(30),&#x0A;last_name varchar(30),&#x0A;id int not null ,&#x0A;age int,&#x0A;city varchar(30),&#x0A;state varchar(30),&#x0A;PRIMARY KEY(id)&#x0A;)</ENTRY>
+<ENTRY timestamp='14:03:30'>insert into empinfooo(first_name,last_name,id,age,city,state) values(&quot;pranjal&quot;,&quot;sharma&quot;,12,26,&quot;jaipur&quot;,&quot;rajasthan&quot;)</ENTRY>
+<ENTRY timestamp='14:03:54'>select * from empinfoo</ENTRY>
+<ENTRY timestamp='14:04:08'>select * from empinfooo</ENTRY>
+<ENTRY timestamp='14:04:28'>insert into empinfooo(first_name,last_name,id,age,city,state) values(&quot;pranjal&quot;,&quot;sharma&quot;,12,26,&quot;jaipur&quot;,&quot;rajasthan&quot;)</ENTRY>
+<ENTRY timestamp='14:05:26'>insert into empinfooo(first_name,last_name,id,age,city,state) values(&quot;cutie&quot;,&quot;sharma&quot;,13,15,&quot;jaipur&quot;,&quot;rajasthan&quot;)</ENTRY>
+<ENTRY timestamp='14:05:42'>select *from empinfooo</ENTRY>
+<ENTRY timestamp='14:08:49'>insert into empinfooo values (&quot;ayushi&quot;,&quot;sharma&quot;,14,24,&quot;ajmer&quot;,&quot;rajasthan&quot;)</ENTRY>
+<ENTRY timestamp='14:08:53'>select *from empinfooo</ENTRY>
+<ENTRY timestamp='14:14:56'>insert into empinfooo values(&quot;ravi&quot;,&quot;meena&quot;,&quot;1212&quot;,&quot;232&quot;,&quot;asa&quot;,&quot;As&quot;)</ENTRY>
+<ENTRY timestamp='14:15:35'>select * from empinfooo</ENTRY>
+<ENTRY timestamp='14:18:26'>use intro_sql</ENTRY>
+<ENTRY timestamp='14:18:43'>create table new_employee</ENTRY>
+<ENTRY timestamp='14:20:16'>use intro_sql</ENTRY>
+<ENTRY timestamp='14:20:18'>create table new_employee</ENTRY>
+<ENTRY timestamp='14:20:28'>create table new_employeee</ENTRY>
+<ENTRY timestamp='14:21:40'>create table new_employeee&#x0A;(&#x0A;first_name varchar (20),&#x0A;designation varchar (20),&#x0A;age int,&#x0A;amount int&#x0A;)</ENTRY>
+<ENTRY timestamp='14:29:32'>insert into new_employeee values (&quot;jonie&quot;,&quot;weber&quot;,&quot;secretary&quot;,28,19500)</ENTRY>
+<ENTRY timestamp='14:30:03'>drop table new_employeee</ENTRY>
+<ENTRY timestamp='14:30:22'>create table new_employeee&#x0A;(&#x0A;first_name varchar (20),&#x0A;last_name varchar (20)&#x0A;designation varchar (20),&#x0A;age int,&#x0A;amount int&#x0A;)</ENTRY>
+<ENTRY timestamp='14:30:36'>create table new_employeee&#x0A;(&#x0A;first_name varchar (20),&#x0A;last_name varchar (20),&#x0A;designation varchar (20),&#x0A;age int,&#x0A;amount int</ENTRY>
+<ENTRY timestamp='14:31:16'>show tables</ENTRY>
+<ENTRY timestamp='14:31:42'>select* from new_employees</ENTRY>
+<ENTRY timestamp='14:32:04'>show tables</ENTRY>
+<ENTRY timestamp='14:32:22'>create table new_employeee&#x0A;(&#x0A;first_name varchar (20),&#x0A;last_name varchar (20),&#x0A;designation varchar (20),&#x0A;age int,&#x0A;amount int&#x0A;)</ENTRY>
+<ENTRY timestamp='14:32:29'>insert into new_employeee values (&quot;jonie&quot;,&quot;weber&quot;,&quot;secretary&quot;,28,19500)</ENTRY>
+<ENTRY timestamp='14:32:32'>insert into new_employeee values(&quot;potsy&quot;,&quot;weber&quot;,&quot;programmer&quot;,32,45300)</ENTRY>
+<ENTRY timestamp='14:33:03'>insert into new_employeee values(&quot;dirk&quot;,&quot;smith&quot;,&quot;programmer 2&quot;,45,75020)</ENTRY>
+<ENTRY timestamp='14:33:22'>select * from new_employeee</ENTRY>
+<ENTRY timestamp='14:38:02'>insert into new_employeee values(&quot;pranjal&quot;,&quot;sharma&quot;,&quot;businessman&quot;,26,100000)</ENTRY>
+<ENTRY timestamp='14:38:43'>insert into new_employeee values(&quot;cutie&quot;,&quot;sharma&quot;,&quot;entrepreneur&quot;,15,100000)</ENTRY>
+<ENTRY timestamp='14:39:13'>insert into new_employeee values(&quot;geeta&quot;,&quot;sahrma&quot;,&quot;mom&quot;,50,12121212212)</ENTRY>
+<ENTRY timestamp='14:39:31'>insert into new_employeee values(&quot;geeta&quot;,&quot;sahrma&quot;,&quot;mom&quot;,50,1212112)</ENTRY>
+<ENTRY timestamp='14:40:01'>insert into new_employeee values(&quot;sanjay&quot;,&quot;sahrma&quot;,&quot;dad&quot;,53,121331)</ENTRY>
+<ENTRY timestamp='14:40:24'>~</ENTRY>
+<ENTRY timestamp='14:40:25'>~</ENTRY>
+<ENTRY timestamp='14:40:44'>select * from new_employeee</ENTRY>
+<ENTRY timestamp='14:42:34'>select first_name,last_name from new_employeee where age&lt;30</ENTRY>
+<ENTRY timestamp='14:43:35'>select * from new_employeee</ENTRY>
+<ENTRY timestamp='14:44:05'>select first_name,last_name,salary from new_employeee where designation like &quot;programmer&quot;</ENTRY>
+<ENTRY timestamp='14:44:16'>select * from new_employeee</ENTRY>
+<ENTRY timestamp='14:44:28'>select first_name,last_name,amaount from new_employeee where designation like &quot;programmer&quot;</ENTRY>
+<ENTRY timestamp='14:44:38'>select first_name,last_name,amount from new_employeee where designation like &quot;programmer&quot;</ENTRY>
+<ENTRY timestamp='14:44:59'>select first_name,last_name,amount from new_employeee where designation like &quot;programmer%&quot;</ENTRY>
+<ENTRY timestamp='14:48:06'>select * from new_employeee where last_name &quot;%ebe%&quot;</ENTRY>
+<ENTRY timestamp='14:48:25'>select * from new_employeee where last_name like  &quot;%ebe%&quot;</ENTRY>
+<ENTRY timestamp='14:51:06'>select first_name from new_employeee where first_name like &quot;potsy&quot;</ENTRY>
+<ENTRY timestamp='14:52:01'>select * from new_employeee where age&gt;80</ENTRY>
+<ENTRY timestamp='14:53:03'>select * from new_employeee where last_name like&quot;%th&quot;</ENTRY>
+<ENTRY timestamp='15:06:36'>update table new_employeee set designation =&quot;sr.programmer&quot; where first_name=&quot;potsy&quot;</ENTRY>
+<ENTRY timestamp='15:06:56'>update table new_employeee set designation =&quot;sr.programmer&quot; where first_name=&quot;Potsy&quot;</ENTRY>
+<ENTRY timestamp='15:07:39'>update table new_employeee set designation = &quot;sr.programmer&quot; where first_name=&quot;Potsy&quot;</ENTRY>
+<ENTRY timestamp='15:08:05'>update table new_employeee set designation = &quot;sr.programmer&quot; where first_name like &quot;Potsy&quot;</ENTRY>
+<ENTRY timestamp='15:09:06'>update  new_employeee set designation = &quot;sr.programmer&quot; where first_name like &quot;Potsy&quot;</ENTRY>
+<ENTRY timestamp='15:10:51'>SET SQL_SAFE_UPDATES = 0</ENTRY>
+<ENTRY timestamp='15:10:59'>update  new_employeee set designation = &quot;sr.programmer&quot; where first_name like &quot;Potsy&quot;</ENTRY>
+<ENTRY timestamp='15:11:06'>select * from new_employeee</ENTRY>
+<ENTRY timestamp='15:18:23'>update new_employee set designation =&quot;sr. data anlyst&quot;,age=30 where first_name like &quot;pranjal&quot;</ENTRY>
+<ENTRY timestamp='15:18:40'>update new_employeee set designation =&quot;sr. data anlyst&quot;,age=30 where first_name like &quot;pranjal&quot;</ENTRY>
+<ENTRY timestamp='15:18:53'>select * from new_employeee</ENTRY>
+<ENTRY timestamp='15:21:55'>select * from new_employee</ENTRY>
+<ENTRY timestamp='15:22:01'>select * from new_employeee</ENTRY>
+<ENTRY timestamp='15:24:34'>update new_employees set last_name =&quot;Weber-Williams&quot; where first_name=&quot;jonie</ENTRY>
+<ENTRY timestamp='15:24:48'>update new_employees set last_name =&quot;Weber-Williams&quot; where first_name like &quot;jonie</ENTRY>
+<ENTRY timestamp='15:25:00'>update new_employeee set last_name =&quot;Weber-Williams&quot; where first_name = &quot;jonie</ENTRY>
+<ENTRY timestamp='15:25:06'>select * from new_employeee</ENTRY>
+<ENTRY timestamp='15:25:29'>update new_employeee set last_name =&quot;Weber-Williams&quot; where first_name = &quot;jonie&quot;</ENTRY>
+<ENTRY timestamp='15:25:34'>select * from new_employeee</ENTRY>
+<ENTRY timestamp='15:26:43'>update new_employeee set age=46 where first_name = &quot;dirk&quot;</ENTRY>
+<ENTRY timestamp='15:27:43'>select * from new_employeee</ENTRY>
+<ENTRY timestamp='15:28:35'>update new_emplyee set amount =amount+3500 where amount&lt;30000</ENTRY>
+<ENTRY timestamp='15:28:51'>update new_employeee set amount =amount+3500 where amount&lt;30000</ENTRY>
+<ENTRY timestamp='15:29:00'>select * from new_employeee</ENTRY>
+<ENTRY timestamp='15:30:04'>update new_employeee set amount =amount+4500 where amount&gt;33500</ENTRY>
+<ENTRY timestamp='15:30:34'>select * from new_employeee</ENTRY>
+<ENTRY timestamp='15:31:20'>update new_employeee set degination =&quot; programmer 3&quot; where degination=&quot;programmer 2&quot;</ENTRY>
+<ENTRY timestamp='15:31:36'>update new_employeee set degination =&quot; programmer 3&quot; where designation=&quot;programmer 2&quot;</ENTRY>
+<ENTRY timestamp='15:31:47'>update new_employeee set designation =&quot; programmer 3&quot; where designation=&quot;programmer 2&quot;</ENTRY>
+<ENTRY timestamp='15:31:56'>select * from new_employeee</ENTRY>
+<ENTRY timestamp='15:33:11'>update new_employeee set designation =&quot;sr.pogrammer&quot; where designation=&quot;sr.programmer 2&quot;</ENTRY>
+<ENTRY timestamp='15:33:18'>select * from new_employeee</ENTRY>
+<ENTRY timestamp='16:09:18'>~</ENTRY>
+<ENTRY timestamp='16:10:26'>show databases&#x0A;use intro_sql&#x0A;create table empinfooo&#x0A;(&#x0A;first_name varchar(30),&#x0A;last_name varchar(30),&#x0A;id int not null ,&#x0A;age int,&#x0A;city varchar(30),&#x0A;state varchar(30),&#x0A;PRIMARY KEY(id)&#x0A;)&#x0A;#insert into table name then define the columns,and then the values and different values of it.&#x0A;insert into empinfooo(first_name,last_name,id,age,city,state) values(&quot;pranjal&quot;,&quot;sharma&quot;,12,26,&quot;jaipur&quot;,&quot;rajasthan&quot;)</ENTRY>
+<ENTRY timestamp='16:10:32'>delete new_employeee where designation = &quot;programmer3&quot;</ENTRY>
+<ENTRY timestamp='16:11:20'>delete from  new_employeee where designation = &quot;programmer3&quot;</ENTRY>
+<ENTRY timestamp='16:11:46'>select * from new_employeee</ENTRY>
+<ENTRY timestamp='16:12:10'>delete from  new_employeee where designation = &quot;programmer3&quot;</ENTRY>
+<ENTRY timestamp='16:12:13'>select * from new_employeee</ENTRY>
+<ENTRY timestamp='16:12:46'>delete from  new_employeee where designation = &quot;programmer3&quot;</ENTRY>
+<ENTRY timestamp='16:12:58'>select * from new_employeee</ENTRY>
+<ENTRY timestamp='16:13:15'>delete from  new_employeee where designation = &quot;secretary&quot;</ENTRY>
+<ENTRY timestamp='16:13:19'>select * from new_employeee</ENTRY>
+<ENTRY timestamp='22:00:16'>create table customers&#x0A;(&#x0A;customer id int,&#x0A;customername varchar(100),&#x0A;contactname varchar(100)&#x0A;address varchar(100),&#x0A;city,&#x0A;postal_code varchar(10),&#x0A;country varchar (20)&#x0A;)</ENTRY>
+<ENTRY timestamp='22:01:28'>create table customers&#x0A;(&#x0A;customerid int,&#x0A;customername varchar(100),&#x0A;contactname varchar(100),&#x0A;address varchar(100),&#x0A;city varcahr(100),&#x0A;postalcode varchar(10),&#x0A;country varchar (20)&#x0A;primary key (customerid)</ENTRY>
+<ENTRY timestamp='22:01:55'>create table customers&#x0A;(&#x0A;customerid int,&#x0A;customername varchar(100),&#x0A;contactname varchar(100),&#x0A;address varchar(100),&#x0A;city varchar(100),&#x0A;postalcode varchar(10),&#x0A;country varchar (20)&#x0A;primary key (customerid)&#x0A;)</ENTRY>
+<ENTRY timestamp='22:02:15'>create table customers&#x0A;(&#x0A;customerid int not null,&#x0A;customername varchar(100),&#x0A;contactname varchar(100),&#x0A;address varchar(100),&#x0A;city varchar(100),&#x0A;postalcode varchar(10),&#x0A;country varchar (20)&#x0A;primary key (customerid)&#x0A;)</ENTRY>
+<ENTRY timestamp='22:03:12'>create table customers&#x0A;(&#x0A;customerid int not null,&#x0A;customername varchar(100),&#x0A;contactname varchar(100),&#x0A;address varchar(100),&#x0A;city varchar(100),&#x0A;postalcode varchar(10),&#x0A;country varchar (20),&#x0A;primary key (customerid)&#x0A;)</ENTRY>
+<ENTRY timestamp='22:05:23'>create table orders &#x0A;(&#x0A;orderid int,&#x0A;coustomerid int ,&#x0A;employeeid int,&#x0A;orderdate datetime ,&#x0A;shipperid int&#x0A;)</ENTRY>
+<ENTRY timestamp='22:05:41'>drop table orders</ENTRY>
+<ENTRY timestamp='22:06:20'>create table orders &#x0A;(&#x0A;orderid int not null,&#x0A;coustomerid int ,&#x0A;employeeid int,&#x0A;orderdate datetime ,&#x0A;shipperid int,&#x0A;primary key(orderid)&#x0A;)</ENTRY>
+<ENTRY timestamp='22:08:32'>insert into customers values(1,&quot;pranjal&quot;,&quot;pranjal&quot;,&quot;jaipur&quot;,&quot;jaipur&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:21:45'>insert into customers values(1,&quot;pranjal&quot;,&quot;pranjal&quot;,&quot;jaipur&quot;,&quot;jaipur&quot;,&quot;0000&quot;,&quot;hongkong&quot;)&#x0A;insert into customers values(2,&quot;gero&quot;,&quot;gero&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)&#x0A;insert into customers values(3,&quot;ashi&quot;,&quot;ashi&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)&#x0A;insert into customers values(4,&quot;sanjay&quot;,&quot;sanjay&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)&#x0A;insert into customers values(5,&quot;geeta&quot;,&quot;geeta&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)&#x0A;insert into customers values(6,&quot;shiv&quot;,&quot;shiv&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)&#x0A;insert into customers values(7,&quot;sg&quot;,&quot;sg&quot;,&quot;udaipur&quot;,&quot;udaipur&quot;,&quot;0000&quot;,&quot;india&quot;)&#x0A;insert into customers values(8,&quot;sid&quot;,&quot;sid&quot;,&quot;pune&quot;,&quot;pune&quot;,&quot;0000&quot;,&quot;india&quot;)&#x0A;insert into customers values(9,&quot;ray&quot;,&quot;ray&quot;,&quot;mumbai&quot;,&quot;mumbai&quot;,&quot;0000&quot;,&quot;india&quot;)&#x0A;insert into customers values(10,&quot;naina&quot;,&quot;delhi&quot;,&quot;delhi&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:22:01'>insert into customers values(1,&quot;pranjal&quot;,&quot;pranjal&quot;,&quot;jaipur&quot;,&quot;jaipur&quot;,&quot;0000&quot;,&quot;hongkong&quot;)</ENTRY>
+<ENTRY timestamp='22:22:30'>insert into customers values(2,&quot;gero&quot;,&quot;gero&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:22:33'>insert into customers values(3,&quot;ashi&quot;,&quot;ashi&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:22:37'>insert into customers values(4,&quot;sanjay&quot;,&quot;sanjay&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:22:41'>insert into customers values(5,&quot;geeta&quot;,&quot;geeta&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:22:44'>insert into customers values(6,&quot;shiv&quot;,&quot;shiv&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:22:47'>insert into customers values(7,&quot;sg&quot;,&quot;sg&quot;,&quot;udaipur&quot;,&quot;udaipur&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:22:50'>insert into customers values(8,&quot;sid&quot;,&quot;sid&quot;,&quot;pune&quot;,&quot;pune&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:22:53'>insert into customers values(9,&quot;ray&quot;,&quot;ray&quot;,&quot;mumbai&quot;,&quot;mumbai&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:22:56'>insert into customers values(10,&quot;naina&quot;,&quot;delhi&quot;,&quot;delhi&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:23:19'>insert into customers values(1,&quot;pranjal&quot;,&quot;pranjal&quot;,&quot;jaipur&quot;,&quot;jaipur&quot;,&quot;0000&quot;,&quot;hongkong&quot;)</ENTRY>
+<ENTRY timestamp='22:23:45'>~</ENTRY>
+<ENTRY timestamp='22:24:06'>select * from customers</ENTRY>
+<ENTRY timestamp='22:24:51'>drop table customers</ENTRY>
+<ENTRY timestamp='22:25:04'>create table customers&#x0A;(&#x0A;customerid int not null,&#x0A;customername varchar(100),&#x0A;contactname varchar(100),&#x0A;address varchar(100),&#x0A;city varchar(100),&#x0A;postalcode varchar(10),&#x0A;country varchar (20),&#x0A;primary key (customerid)</ENTRY>
+<ENTRY timestamp='22:25:18'>create table customers&#x0A;(&#x0A;customerid int not null,&#x0A;customername varchar(100),&#x0A;contactname varchar(100),&#x0A;address varchar(100),&#x0A;city varchar(100),&#x0A;postalcode varchar(10),&#x0A;country varchar (20),&#x0A;primary key (customerid)&#x0A;)</ENTRY>
+<ENTRY timestamp='22:25:23'>insert into customers values(1,&quot;pranjal&quot;,&quot;pranjal&quot;,&quot;jaipur&quot;,&quot;jaipur&quot;,&quot;0000&quot;,&quot;hongkong&quot;)</ENTRY>
+<ENTRY timestamp='22:25:33'>insert into customers values(2,&quot;gero&quot;,&quot;gero&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)&#x0A;insert into customers values(3,&quot;ashi&quot;,&quot;ashi&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)&#x0A;insert into customers values(4,&quot;sanjay&quot;,&quot;sanjay&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)&#x0A;insert into customers values(5,&quot;geeta&quot;,&quot;geeta&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)&#x0A;insert into customers values(6,&quot;shiv&quot;,&quot;shiv&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)&#x0A;insert into customers values(7,&quot;sg&quot;,&quot;sg&quot;,&quot;udaipur&quot;,&quot;udaipur&quot;,&quot;0000&quot;,&quot;india&quot;)&#x0A;insert into customers values(8,&quot;sid&quot;,&quot;sid&quot;,&quot;pune&quot;,&quot;pune&quot;,&quot;0000&quot;,&quot;india&quot;)&#x0A;insert into customers values(9,&quot;ray&quot;,&quot;ray&quot;,&quot;mumbai&quot;,&quot;mumbai&quot;,&quot;0000&quot;,&quot;india&quot;)&#x0A;insert into customers values(10,&quot;naina&quot;,&quot;delhi&quot;,&quot;delhi&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:25:40'>insert into customers values(2,&quot;gero&quot;,&quot;gero&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:25:43'>insert into customers values(3,&quot;ashi&quot;,&quot;ashi&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:25:46'>insert into customers values(4,&quot;sanjay&quot;,&quot;sanjay&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:25:50'>insert into customers values(5,&quot;geeta&quot;,&quot;geeta&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:25:52'>insert into customers values(6,&quot;shiv&quot;,&quot;shiv&quot;,&quot;bangalore&quot;,&quot;bangalore&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:25:54'>insert into customers values(7,&quot;sg&quot;,&quot;sg&quot;,&quot;udaipur&quot;,&quot;udaipur&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:25:58'>insert into customers values(8,&quot;sid&quot;,&quot;sid&quot;,&quot;pune&quot;,&quot;pune&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:26:01'>insert into customers values(9,&quot;ray&quot;,&quot;ray&quot;,&quot;mumbai&quot;,&quot;mumbai&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:26:04'>insert into customers values(10,&quot;naina&quot;,&quot;delhi&quot;,&quot;delhi&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:26:27'>insert into customers values(10,&quot;naina&quot;,&quot;naina&quot;,&quot;delhi&quot;,&quot;delhi&quot;,&quot;0000&quot;,&quot;india&quot;)</ENTRY>
+<ENTRY timestamp='22:26:30'>select * from customers</ENTRY>
+<ENTRY timestamp='22:27:51'>insert into orders values(901,1,1,&quot;01/01/2021&quot;,92801)</ENTRY>
+<ENTRY timestamp='22:28:18'>insert into orders values(901,1,1,&quot;01-01-2021&quot;,92801)</ENTRY>
+<ENTRY timestamp='22:29:05'>insert into orders values(901,1,1,sysdate(),92801)</ENTRY>
+<ENTRY timestamp='22:31:11'>insert into orders values(902,1,1,sysdate()-10,92801)</ENTRY>
+<ENTRY timestamp='~'>insert into orders values(903,4,4,sysdate()-20,92801)</ENTRY>
+<ENTRY timestamp='22:32:01'>insert into orders values(902,1,1,sysdate()+10,92801)</ENTRY>
+<ENTRY timestamp='22:32:10'>insert into orders values(903,4,4,sysdate()+20,92801)</ENTRY>
+<ENTRY timestamp='22:32:13'>insert into orders values(904,5,5,sysdate()+30,92801)</ENTRY>
+<ENTRY timestamp='22:32:17'>insert into orders values(905,6,6,sysdate()+40,92801)</ENTRY>
+<ENTRY timestamp='22:32:44'>select * from orders</ENTRY>
+<ENTRY timestamp='22:33:37'>~</ENTRY>
+<ENTRY timestamp='22:34:09'>select * from customers</ENTRY>
+<ENTRY timestamp='22:34:13'>select * from orders</ENTRY>
+<ENTRY timestamp='13:42:01'>select * from orders</ENTRY>
+<ENTRY timestamp='13:42:32'>select * from customers</ENTRY>
+<ENTRY timestamp='13:46:27'>select * from orders</ENTRY>
+<ENTRY timestamp='13:49:48'>select * from customers</ENTRY>
+<ENTRY timestamp='13:53:08'>select c.costomerid,c.costomername,c.country,o.orderid,o.orderdate from customers c left join orders  o on c.customerid=o.customerid</ENTRY>
+<ENTRY timestamp='13:53:51'>select c.costomerid,c.costomername,c.country,o.orderid,o.orderdate from customers c left join orders  o on c.costumerid=o.costumerid</ENTRY>
+<ENTRY timestamp='13:54:20'>select * from customers</ENTRY>
+<ENTRY timestamp='13:54:51'>select c.customerid,c.customername,c.country,o.orderid,o.orderdate from customers c left join orders  o on c.custumerid=o.custumerid</ENTRY>
+<ENTRY timestamp='13:54:59'>select * from customers</ENTRY>
+<ENTRY timestamp='13:55:54'>select c.customerid,c.customername,c.country,o.orderid,o.orderdate from customers c left join orders  o on c.customerid=o.customerid</ENTRY>
+<ENTRY timestamp='13:56:03'>select * from orders</ENTRY>
+<ENTRY timestamp='13:56:33'>select c.customerid,c.customername,c.country,o.orderid,o.orderdate from customers c left join orders  o on c.customerid=o.coustomerid</ENTRY>
+<ENTRY timestamp='13:59:54'>select * from orders</ENTRY>
+<ENTRY timestamp='14:00:01'>select * from customers</ENTRY>
+<ENTRY timestamp='14:00:06'>select * from orders</ENTRY>
+<ENTRY timestamp='14:00:20'>select c.customerid,c.customername,c.country,o.orderid,o.orderdate from customers c left join orders  o on c.customerid=o.coustomerid</ENTRY>
+<ENTRY timestamp='14:01:44'>select * from customers</ENTRY>
+<ENTRY timestamp='14:01:48'>select * from orders</ENTRY>
+<ENTRY timestamp='~'>~</ENTRY>
+<ENTRY timestamp='14:01:53'>select * from customers</ENTRY>
+<ENTRY timestamp='14:01:56'>select * from orders</ENTRY>
+<ENTRY timestamp='14:03:56'>~</ENTRY>
+<ENTRY timestamp='14:04:42'>select c.customerid,c.customername,c.country,o.orderid,o.orderdate from customers c left join orders  o on c.customerid=o.coustomerid</ENTRY>
+<ENTRY timestamp='14:08:22'>select c.customerid,c.customername,c.country,o.orderid,o.orderdate from customers c right join orders  o on c.customerid=o.coustomerid</ENTRY>
+<ENTRY timestamp='14:10:02'>insert into orders values(906,11,11,sysdate()+40,92801)</ENTRY>
+<ENTRY timestamp='14:10:08'>select * from customers</ENTRY>
+<ENTRY timestamp='14:10:17'>select * from orders</ENTRY>
+<ENTRY timestamp='14:10:45'>select c.customerid,c.customername,c.country,o.orderid,o.orderdate from customers c right join orders  o on c.customerid=o.coustomerid</ENTRY>
+<ENTRY timestamp='14:11:08'>select * from customers</ENTRY>
+<ENTRY timestamp='14:11:16'>select * from orders</ENTRY>
+<ENTRY timestamp='14:11:26'>select * from customers</ENTRY>
+<ENTRY timestamp='14:11:35'>select * from orders</ENTRY>
+<ENTRY timestamp='14:11:45'>select c.customerid,c.customername,c.country,o.orderid,o.orderdate from customers c right join orders  o on c.customerid=o.coustomerid</ENTRY>
+<ENTRY timestamp='14:11:57'>select * from orders</ENTRY>
+<ENTRY timestamp='14:12:02'>select * from customers</ENTRY>
+<ENTRY timestamp='~'>~</ENTRY>
+<ENTRY timestamp='14:12:08'>select c.customerid,c.customername,c.country,o.orderid,o.orderdate from customers c right join orders  o on c.customerid=o.coustomerid</ENTRY>
+<ENTRY timestamp='14:14:55'>select c.customerid,c.customername,c.country,o.orderid,o.orderdate from customers c inner  join orders  o on c.customerid=o.coustomerid</ENTRY>
+<ENTRY timestamp='14:15:20'>select * from customers</ENTRY>
+<ENTRY timestamp='14:15:24'>select * from orders</ENTRY>
+<ENTRY timestamp='14:15:33'>select c.customerid,c.customername,c.country,o.orderid,o.orderdate from customers c inner  join orders  o on c.customerid=o.coustomerid</ENTRY>
+<ENTRY timestamp='14:18:38'>select c.customerid,c.customername,c.country,o.orderid,o.orderdate from customers c, orders  o where   c.customerid=o.coustomerid</ENTRY>
+<ENTRY timestamp='14:31:07'>union&#x0A;select c.customerid,c.customername,c.country,o.orderid,o.orderdate from customers c right  outer  join orders  o on c.customerid=o.coustomerid</ENTRY>
+<ENTRY timestamp='14:31:21'>select c.customerid,c.customername,c.country,o.orderid,o.orderdate from customers c left outer  join orders  o on c.customerid=o.coustomerid</ENTRY>
+<ENTRY timestamp='~'>union&#x0A;select c.customerid,c.customername,c.country,o.orderid,o.orderdate from customers c right  outer  join orders  o on c.customerid=o.coustomerid</ENTRY>
+<ENTRY timestamp='14:31:44'>select c.customerid,c.customername,c.country,o.orderid,o.orderdate from customers c left outer  join orders  o on c.customerid=o.coustomerid</ENTRY>
+<ENTRY timestamp='~'>union&#x0A;select c.customerid,c.customername,c.country,o.orderid,o.orderdate from customers c right  outer  join orders  o on c.customerid=o.coustomerid</ENTRY>
+<ENTRY timestamp='14:34:35'>select c.customerid,c.customername,c.country,o.orderid,o.orderdate from customers c cross join orders  o on c.customerid=o.coustomerid</ENTRY>
+<ENTRY timestamp='10:51:33'>use intro_sql</ENTRY>
+<ENTRY timestamp='10:51:42'>show tables</ENTRY>
+<ENTRY timestamp='10:52:03'>use intro_sql&#x0A;show tables</ENTRY>
+<ENTRY timestamp='10:52:08'>use intro_sql</ENTRY>
+<ENTRY timestamp='10:52:13'>show tables</ENTRY>
+<ENTRY timestamp='11:09:59'>use intro_sql</ENTRY>
+<ENTRY timestamp='11:10:03'>show tables</ENTRY>
+<ENTRY timestamp='11:10:49'>DROP TABLE annual.report_db</ENTRY>
+<ENTRY timestamp='11:11:03'>DROP TABLE &quot;annual.report_db&quot;</ENTRY>
+<ENTRY timestamp='11:11:07'>show tables</ENTRY>
+<ENTRY timestamp='11:11:16'>use intro_sql&#x0A;show tables&#x0A;DROP TABLE annual.report_db&#x0A;&#x0A;#we want to dump the data we want data.(importing)</ENTRY>
+<ENTRY timestamp='11:11:31'>use intro_sql</ENTRY>
+<ENTRY timestamp='11:11:33'>show tables</ENTRY>
+<ENTRY timestamp='11:11:47'>DROP TABLE annual.report_db</ENTRY>
+<ENTRY timestamp='11:12:30'>use intro_sql</ENTRY>
+<ENTRY timestamp='11:12:32'>show tables</ENTRY>
+<ENTRY timestamp='11:13:03'>DROP TABLE dep</ENTRY>
+<ENTRY timestamp='11:13:13'>show tables</ENTRY>
+<ENTRY timestamp='11:13:27'>drop table annual.report_db</ENTRY>
+<ENTRY timestamp='11:13:46'>use intro_sql</ENTRY>
+<ENTRY timestamp='11:13:49'>show tables</ENTRY>
+<ENTRY timestamp='11:13:52'>drop table annual.report_db</ENTRY>
+<ENTRY timestamp='11:27:20'>use intro_sql</ENTRY>
+<ENTRY timestamp='11:27:24'>show tables</ENTRY>
+<ENTRY timestamp='11:27:42'>select * from 	annual.report_db</ENTRY>
+<ENTRY timestamp='11:27:52'>show tables</ENTRY>
+<ENTRY timestamp='11:27:58'>drop table annual.report_db</ENTRY>
+<ENTRY timestamp='11:28:04'>select * from 	annual.report_db</ENTRY>
+<ENTRY timestamp='11:28:53'>delete from annual.report_db</ENTRY>
+<ENTRY timestamp='11:30:14'>create table command line</ENTRY>
+<ENTRY timestamp='12:16:49'>use intro_sql</ENTRY>
+<ENTRY timestamp='12:16:52'>show tables</ENTRY>
+<ENTRY timestamp='12:17:16'>select * from new_tables</ENTRY>
+<ENTRY timestamp='12:17:50'>show tables</ENTRY>
+<ENTRY timestamp='12:18:02'>select * from new_table</ENTRY>
+<ENTRY timestamp='12:18:21'>select count(*) from new_table</ENTRY>
+<ENTRY timestamp='12:29:46'>select * from small_file</ENTRY>
+<ENTRY timestamp='12:34:45'>DROP TABLE `intro_sql`.`small_file`</ENTRY>
+<ENTRY timestamp='12:36:14'>show tables</ENTRY>
+<ENTRY timestamp='12:56:55'>use intro_sql</ENTRY>
+<ENTRY timestamp='12:57:06'>~</ENTRY>
+<ENTRY timestamp='12:57:08'>~</ENTRY>
+<ENTRY timestamp='12:57:11'>show tables</ENTRY>
+<ENTRY timestamp='12:57:32'>select * from new_table</ENTRY>
+<ENTRY timestamp='12:57:46'>select * from new_table limit 500</ENTRY>
+<ENTRY timestamp='12:57:57'>select count(*) from new_table limit 500</ENTRY>
+<ENTRY timestamp='12:58:11'>select *  from new_table limit 500</ENTRY>
+<ENTRY timestamp='13:04:48'>create table data_import</ENTRY>
+<ENTRY timestamp='13:04:53'>create database data_import</ENTRY>
+<ENTRY timestamp='13:04:55'>create table data_import</ENTRY>
+<ENTRY timestamp='13:05:34'>show databases</ENTRY>
+<ENTRY timestamp='13:05:51'>use data_import</ENTRY>
+<ENTRY timestamp='14:17:50'>select * from classicmodels</ENTRY>
+<ENTRY timestamp='14:18:23'>use classicmodels</ENTRY>
+<ENTRY timestamp='14:18:44'>show tables</ENTRY>
+<ENTRY timestamp='14:18:59'>select * from orders</ENTRY>
+<ENTRY timestamp='14:26:28'>use intro_sql</ENTRY>
+<ENTRY timestamp='14:26:30'>show tables</ENTRY>
+<ENTRY timestamp='14:29:29'>use new_table</ENTRY>
+<ENTRY timestamp='14:29:46'>show databases</ENTRY>
+<ENTRY timestamp='14:30:16'>use sakilla</ENTRY>
+<ENTRY timestamp='14:30:20'>show databases</ENTRY>
+<ENTRY timestamp='14:30:39'>use sakila</ENTRY>
+<ENTRY timestamp='14:31:01'>select * from sakila</ENTRY>
+<ENTRY timestamp='14:31:06'>use sakila</ENTRY>
+<ENTRY timestamp='14:31:09'>select * from sakila</ENTRY>
+<ENTRY timestamp='14:31:19'>show tables</ENTRY>
+<ENTRY timestamp='14:32:00'>select * from category</ENTRY>
+<ENTRY timestamp='14:32:33'>show tables</ENTRY>
+<ENTRY timestamp='14:32:48'>show databases</ENTRY>
+<ENTRY timestamp='14:33:06'>use calssiscmodels</ENTRY>
+<ENTRY timestamp='14:33:13'>use calssismodels</ENTRY>
+<ENTRY timestamp='14:33:16'>show databases</ENTRY>
+<ENTRY timestamp='14:33:34'>use calssicmodels</ENTRY>
+<ENTRY timestamp='14:33:46'>show databases</ENTRY>
+<ENTRY timestamp='14:33:59'>use calssicmodels</ENTRY>
+<ENTRY timestamp='14:34:03'>show databases</ENTRY>
+<ENTRY timestamp='14:34:26'>use classicmodels</ENTRY>
+<ENTRY timestamp='14:34:30'>show tables</ENTRY>
+<ENTRY timestamp='14:34:51'>select * from customers</ENTRY>
+<ENTRY timestamp='14:37:34'>select customername ,count(*) from customers group by country like &quot;USA&quot;</ENTRY>
+<ENTRY timestamp='14:39:16'>select customername ,count(*) from customers group by country WHERE COUNTRY LIKE &quot;USA&quot;</ENTRY>
+<ENTRY timestamp='14:39:29'>select customername ,count(*) from customers group by country WHERE country LIKE &quot;USA&quot;</ENTRY>
+<ENTRY timestamp='14:39:47'>select customername ,count(*) from customers group by country like &quot;USA&quot;</ENTRY>
+<ENTRY timestamp='14:40:49'>use sakila</ENTRY>
+<ENTRY timestamp='14:40:58'>show tables</ENTRY>
+<ENTRY timestamp='14:42:12'>use sakila</ENTRY>
+<ENTRY timestamp='14:42:15'>show tables</ENTRY>
+<ENTRY timestamp='14:42:28'>select * from actor</ENTRY>
+<ENTRY timestamp='14:42:48'>show tables</ENTRY>
+<ENTRY timestamp='14:43:06'>select * from tables</ENTRY>
+<ENTRY timestamp='14:43:13'>show tables</ENTRY>
+<ENTRY timestamp='14:43:30'>select * from film_category</ENTRY>
+<ENTRY timestamp='14:46:36'>select category_id,count(*) from film_category group by category like 11</ENTRY>
+<ENTRY timestamp='14:46:51'>select * from film_category</ENTRY>
+<ENTRY timestamp='14:47:07'>select category_id,count(*) from film_category group by category_id like 11</ENTRY>
+<ENTRY timestamp='14:47:58'>select count(*) from film_category</ENTRY>
+<ENTRY timestamp='14:48:05'>select category_id,count(*) from film_category group by category_id like 11</ENTRY>
+<ENTRY timestamp='14:48:18'>select category_id,count(*) from film_category group by category_id like 1</ENTRY>
+<ENTRY timestamp='14:48:30'>select category_id,count(*) from film_category group by category_id like 2</ENTRY>
+<ENTRY timestamp='14:48:38'>select category_id,count(*) from film_category group by category_id like 11</ENTRY>
+<ENTRY timestamp='14:48:50'>select count(*) from film_category</ENTRY>
+<ENTRY timestamp='14:50:14'>select * from film_category</ENTRY>
+<ENTRY timestamp='14:50:22'>show tables</ENTRY>
+<ENTRY timestamp='14:50:40'>select * from country</ENTRY>
+<ENTRY timestamp='14:50:51'>show tables</ENTRY>
+<ENTRY timestamp='14:51:07'>select * from film_actor</ENTRY>
+<ENTRY timestamp='14:53:48'>show tables</ENTRY>
+<ENTRY timestamp='14:54:06'>show databases</ENTRY>
+<ENTRY timestamp='14:54:22'>use cardataset1</ENTRY>
+<ENTRY timestamp='14:54:34'>show tables</ENTRY>
+<ENTRY timestamp='14:54:45'>select * from car</ENTRY>
+<ENTRY timestamp='22:57:21'>use intro_sql</ENTRY>
+<ENTRY timestamp='22:57:30'>show tables</ENTRY>
+<ENTRY timestamp='22:58:07'>select * from new_table</ENTRY>
+<ENTRY timestamp='22:58:31'>show tables</ENTRY>
+<ENTRY timestamp='22:58:44'>select * from orders</ENTRY>
+<ENTRY timestamp='22:59:01'>show tables</ENTRY>
+<ENTRY timestamp='22:59:10'>select * from students</ENTRY>
+<ENTRY timestamp='22:59:16'>show tables</ENTRY>
+<ENTRY timestamp='22:59:30'>select * from customers</ENTRY>
+<ENTRY timestamp='23:05:05'>show tables</ENTRY>
+<ENTRY timestamp='23:05:39'>select * from students</ENTRY>
+<ENTRY timestamp='23:05:44'>show tables</ENTRY>
+<ENTRY timestamp='23:05:56'>select * from orders</ENTRY>
+<ENTRY timestamp='23:06:01'>show tables</ENTRY>
+<ENTRY timestamp='23:06:19'>select * from students</ENTRY>
+<ENTRY timestamp='23:06:24'>show tables</ENTRY>
+<ENTRY timestamp='23:06:36'>select * from orders</ENTRY>
+<ENTRY timestamp='23:06:42'>show tables</ENTRY>
+<ENTRY timestamp='23:07:04'>select * from new_employees</ENTRY>
+<ENTRY timestamp='23:07:09'>show tables</ENTRY>
+<ENTRY timestamp='23:07:26'>select * from employees</ENTRY>
+<ENTRY timestamp='23:07:31'>use intro_sql</ENTRY>
+<ENTRY timestamp='23:07:35'>show tables</ENTRY>
+<ENTRY timestamp='23:07:51'>select * from students</ENTRY>
+<ENTRY timestamp='23:07:55'>show tables</ENTRY>
+<ENTRY timestamp='23:08:11'>select * from new_table</ENTRY>
+<ENTRY timestamp='23:08:22'>show tables</ENTRY>
+<ENTRY timestamp='23:08:34'>select * from empinfo</ENTRY>
+<ENTRY timestamp='23:08:37'>show tables</ENTRY>
+<ENTRY timestamp='23:08:48'>select * from students</ENTRY>
+<ENTRY timestamp='23:08:52'>show tables</ENTRY>
+<ENTRY timestamp='23:09:15'>select * from new_table</ENTRY>
+<ENTRY timestamp='23:10:58'>select Variable_name from new_table order by Variable_name asc</ENTRY>
+<ENTRY timestamp='23:11:11'>select * from new_table</ENTRY>
+<ENTRY timestamp='23:11:24'>select Variable_name from new_table order by Variable_name asc</ENTRY>
+<ENTRY timestamp='23:11:39'>select Variable_name from new_table order by Variable_name asc limit 200</ENTRY>
+<ENTRY timestamp='23:11:49'>select * from new_table</ENTRY>
+<ENTRY timestamp='23:12:22'>select * from new_table order by Variable_name asc limit 200</ENTRY>
+<ENTRY timestamp='23:13:06'>show tables</ENTRY>
+<ENTRY timestamp='23:13:18'>select * from empinfo</ENTRY>
+<ENTRY timestamp='23:13:24'>show tables</ENTRY>
+<ENTRY timestamp='23:13:37'>select * from customers</ENTRY>
+<ENTRY timestamp='23:13:57'>select * from new_table order by customername asc</ENTRY>
+<ENTRY timestamp='23:15:45'>show tables</ENTRY>
+<ENTRY timestamp='23:17:53'>select * from customers</ENTRY>
+<ENTRY timestamp='23:18:11'>select * from  order by customername asc</ENTRY>
+<ENTRY timestamp='23:18:17'>select * from customers</ENTRY>
+<ENTRY timestamp='23:19:28'>select customernamme from customers order by customernamme asc</ENTRY>
+<ENTRY timestamp='23:19:36'>select * from customers</ENTRY>
+<ENTRY timestamp='23:20:06'>select customername from customers order by customername asc</ENTRY>
+<ENTRY timestamp='23:20:24'>select customername from customers order by customername asc limit 3</ENTRY>
+<ENTRY timestamp='23:20:31'>select customername from customers order by customername asc</ENTRY>
+<ENTRY timestamp='23:20:41'>select customername from customers order by customername desc</ENTRY>
+<ENTRY timestamp='23:20:52'>select customername from customers order by customername asc</ENTRY>
+<ENTRY timestamp='23:24:00'>select * from customers order by customername asc</ENTRY>
+<ENTRY timestamp='23:24:08'>select * from customers</ENTRY>
+<ENTRY timestamp='23:24:16'>select customername from customers order by customername asc</ENTRY>
+<ENTRY timestamp='23:24:21'>select * from customers order by customername asc</ENTRY>
+<ENTRY timestamp='23:26:02'>show tables</ENTRY>
+<ENTRY timestamp='23:26:37'>select * from annual.report_db</ENTRY>
+<ENTRY timestamp='23:26:43'>show tables</ENTRY>
+<ENTRY timestamp='23:27:18'>~</ENTRY>
+<ENTRY timestamp='23:27:36'>select * from new_table</ENTRY>
+<ENTRY timestamp='23:34:07'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code</ENTRY>
+<ENTRY timestamp='23:34:23'>select * from new_table</ENTRY>
+<ENTRY timestamp='23:35:02'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code where variable_code=&quot;H01&quot;</ENTRY>
+<ENTRY timestamp='23:35:13'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code where variable_code like &quot;H01&quot;</ENTRY>
+<ENTRY timestamp='23:35:22'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code where variable_code like h01</ENTRY>
+<ENTRY timestamp='23:35:31'>select * from new_table</ENTRY>
+<ENTRY timestamp='23:35:47'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code</ENTRY>
+<ENTRY timestamp='23:36:37'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code where Industry_aggregation_NZSIOC=&quot;level1&quot;</ENTRY>
+<ENTRY timestamp='23:36:47'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code</ENTRY>
+<ENTRY timestamp='23:37:33'>select * from new_table</ENTRY>
+<ENTRY timestamp='23:38:43'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code where variable_code like &quot;H01&quot; and Industry_aggregation_NZSIOC like &quot;level1&quot;</ENTRY>
+<ENTRY timestamp='23:38:55'>show tables</ENTRY>
+<ENTRY timestamp='23:39:23'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code</ENTRY>
+<ENTRY timestamp='23:40:51'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code having variable_code like &quot;H01&quot;</ENTRY>
+<ENTRY timestamp='23:41:22'>select * from new_table</ENTRY>
+<ENTRY timestamp='23:41:42'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code having variable_code like &quot;H01&quot;</ENTRY>
+<ENTRY timestamp='23:41:49'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code having variable_code like &quot;H02&quot;</ENTRY>
+<ENTRY timestamp='23:42:14'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code having variable_code like &quot;H02&quot; and Industry_aggregation_NZSIOC like &quot;level1&quot;</ENTRY>
+<ENTRY timestamp='23:42:23'>use intro_sql&#x0A;show tables&#x0A;select * from customers&#x0A;#we have to arrange variable name in ascending order&#x0A;select customername from customers order by customername asc&#x0A;&#x0A;&#x0A;&#x0A;show tables&#x0A;select * from new_table&#x0A;#i have to count how many level1 have variable_code h01&#x0A;select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code having variable_code like &quot;H01&quot; and Industry_aggregation_NZSIOC like &quot;level1&quot;</ENTRY>
+<ENTRY timestamp='23:42:52'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code having variable_code like &quot;H02&quot; and Industry_aggregation_NZSIOC</ENTRY>
+<ENTRY timestamp='23:43:06'>select * from new_table</ENTRY>
+<ENTRY timestamp='23:43:44'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code having variable_code like &quot;H22&quot; and Industry_aggregation_NZSIOC</ENTRY>
+<ENTRY timestamp='23:43:59'>select * from new_table</ENTRY>
+<ENTRY timestamp='23:44:23'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code having variable_code like &quot;H22&quot; and Industry_aggregation_NZSIOC=&quot;Level 1&quot;</ENTRY>
+<ENTRY timestamp='23:44:35'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code having variable_code like &quot;H01&quot; and Industry_aggregation_NZSIOC=&quot;Level 1&quot;</ENTRY>
+<ENTRY timestamp='23:44:44'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code having variable_code like &quot;H02&quot; and Industry_aggregation_NZSIOC=&quot;Level 1&quot;</ENTRY>
+<ENTRY timestamp='23:44:53'>select Industry_aggregation_NZSIOC, count(*) from new_table group by variable_code having variable_code like &quot;H03&quot; and Industry_aggregation_NZSIOC=&quot;Level 1&quot;</ENTRY>
+<ENTRY timestamp='10:12:07'>SELECT SUBSTRING(CustomerName, 1, 5)</ENTRY>
+<ENTRY timestamp='10:12:28'>SELECT SUBSTRING(&quot;CustomerName&quot;, 1, 5)</ENTRY>
+<ENTRY timestamp='10:15:05'>select SUBSTR(contactFirstname,5,8) FROM CUSTOMERS</ENTRY>
+<ENTRY timestamp='10:16:17'>select SUBSTR(contactFirstname,5,8) AS sub_firstname,contactFirstName FROM CUSTOMERS</ENTRY>
+<ENTRY timestamp='10:16:55'>select SUBSTR(contactFirstname,3,3) AS sub_firstname,contactFirstName FROM CUSTOMERS</ENTRY>
+<ENTRY timestamp='10:18:33'>SELECT SUBSTRING(&quot;CustomerName&quot;, 1, 5)</ENTRY>
+<ENTRY timestamp='10:20:32'>select contactFirstname,upper(contactFirstname),lower(contactFirstname) from CUSTOMERS</ENTRY>
+<ENTRY timestamp='10:21:28'>select contactFirstname,upper(contactFirstname) as up ,lower(contactFirstname) as down from CUSTOMERS</ENTRY>
+<ENTRY timestamp='10:24:31'>select character_length(contactFirstname),contactFirstname from customers</ENTRY>
+<ENTRY timestamp='10:25:35'>select character_length(&quot;hello&quot; &quot;world&quot;) as ch</ENTRY>
+<ENTRY timestamp='10:26:15'>select character_length(&quot;hello world&quot;) as ch</ENTRY>
+<ENTRY timestamp='10:27:07'>select contactFirstname,upper(contactFirstname) as up ,lower(contactFirstname) as down from CUSTOMERS</ENTRY>
+<ENTRY timestamp='10:27:12'>select character_length(contactFirstname),contactFirstname from customers</ENTRY>
+<ENTRY timestamp='10:28:22'>~</ENTRY>
+<ENTRY timestamp='10:29:33'>select character_length(trim(contactFirstname)),contactFirstname from customers</ENTRY>
+<ENTRY timestamp='10:33:40'>select mid('hello world',2,3)</ENTRY>
+<ENTRY timestamp='10:34:07'>substr('hello world',2,3)</ENTRY>
+<ENTRY timestamp='10:34:25'>substring('hello world',2,3)</ENTRY>
+<ENTRY timestamp='10:34:54'>select mid('hello world',2,3)</ENTRY>
+<ENTRY timestamp='10:35:07'>substring('hello world',2,3)</ENTRY>
+<ENTRY timestamp='10:35:35'>SUBSTRING('hello world',2,3)</ENTRY>
+<ENTRY timestamp='10:36:21'>SUBSTRING('hello world', 2,3)</ENTRY>
+<ENTRY timestamp='10:39:26'>SELECT SUBSTRING('hello world', 2,3)</ENTRY>
+<ENTRY timestamp='10:45:19'>SELECT contactFirstname,character_length(trim(contactFirstname))/2 from CUSTOMERS</ENTRY>
+<ENTRY timestamp='10:47:26'>SELECT contactFirstname,character_length(contactFirstname)/2 from CUSTOMERS</ENTRY>
+<ENTRY timestamp='10:49:39'>SELECT contactFirstname,character_length(trim(contactFirstname))/2 from CUSTOMERS</ENTRY>
+<ENTRY timestamp='10:49:47'>~</ENTRY>
+<ENTRY timestamp='10:51:16'>SELECT trim(contactFirstname),character_length(trim(contactFirstname))/2 from CUSTOMERS</ENTRY>
+<ENTRY timestamp='10:53:21'>SELECT trim(contactFirstname),ceiling(character_length(trim(contactFirstname))/2) from CUSTOMERS</ENTRY>
+<ENTRY timestamp='10:53:38'>SELECT trim(contactFirstname),floor(character_length(trim(contactFirstname))/2) from CUSTOMERS</ENTRY>
+<ENTRY timestamp='10:53:51'>SELECT trim(contactFirstname),ceiling(character_length(trim(contactFirstname))/2) from CUSTOMERS</ENTRY>
+<ENTRY timestamp='11:33:14'>CREATE TABLE example_table (&#x0A;   id INT PRIMARY KEY AUTO_INCREMENT,&#x0A;   name VARCHAR(100) NOT NULL,&#x0A;   event_date DATE NOT NULL,&#x0A;   event_time TIME NOT NULL&#x0A;)</ENTRY>
+<ENTRY timestamp='11:34:23'>)</ENTRY>
+<ENTRY timestamp='11:34:51'>INSERT INTO example_table (name, event_date, event_time)&#x0A;VALUES ('Event 1', '2023-01-01', '10:00:00'),&#x0A;       ('Event 2', '2023-02-01', '11:30:00'),&#x0A;       ('Event 3', '2023-03-01', '12:45:00'),&#x0A;       ('Event 4', '2023-04-01', '13:00:00'),&#x0A;       ('Event 5', '2023-05-01', '14:15:00'),&#x0A;       ('Event 6', '2023-06-01', '15:30:00'),&#x0A;       ('Event 7', '2023-07-01', '16:45:00'),&#x0A;       ('Event 8', '2023-08-01', '17:00:00')</ENTRY>
+<ENTRY timestamp='11:35:09'>SHOW TABLES</ENTRY>
+<ENTRY timestamp='11:35:35'>SELECT * FROM EXAMPLE_TBALE</ENTRY>
+<ENTRY timestamp='11:35:45'>SELECT * FROM EXAMPLE_TABLE</ENTRY>
+<ENTRY timestamp='15:48:56'>use sakila</ENTRY>
+<ENTRY timestamp='15:49:07'>select * from sakila</ENTRY>
+<ENTRY timestamp='15:49:17'>show tables</ENTRY>
+<ENTRY timestamp='15:49:51'>show databases</ENTRY>
+<ENTRY timestamp='16:07:03'>use intro_sql</ENTRY>
+<ENTRY timestamp='16:07:14'>show tables</ENTRY>

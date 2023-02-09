@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ENTRY timestamp='21:56:07'>show databases</ENTRY>
+<ENTRY timestamp='21:56:22'>use classicmodels</ENTRY>
+<ENTRY timestamp='21:56:31'>show tables</ENTRY>
+<ENTRY timestamp='21:56:51'>select * from customers</ENTRY>
+<ENTRY timestamp='22:03:19'>select contactFirstName,contactlastName from customers</ENTRY>
+<ENTRY timestamp='22:04:05'>select concat(contactFirstName,contactlastName) from customers</ENTRY>
+<ENTRY timestamp='22:04:19'>select concat(contactFirstName,contactlastName) as namess from customers</ENTRY>
+<ENTRY timestamp='22:06:41'>concat(&quot;hello&quot;,&quot;wolrd&quot;)</ENTRY>
+<ENTRY timestamp='22:06:51'>select concat(&quot;hello&quot;,&quot;wolrd&quot;)</ENTRY>
+<ENTRY timestamp='22:07:27'>select concat(&quot;hello&quot;,&quot; &quot;,&quot;world&quot;)</ENTRY>
+<ENTRY timestamp='22:11:32'>select concat(contactFirstName,&quot; &quot;,contactlastName) as namess from customers</ENTRY>
+<ENTRY timestamp='22:15:52'>select trim(contactFirstname) from customers</ENTRY>
+<ENTRY timestamp='22:28:20'>select select concat(trim(contactFirstName),&quot; &quot;,trim(contactlastName) as namess from customers  #giving space</ENTRY>
+<ENTRY timestamp='22:28:31'>select select concat(trim(contactFirstName),&quot; &quot;,trim(contactlastName) as namesss from customers  #giving space</ENTRY>
+<ENTRY timestamp='22:28:44'>select select concat(trim(contactFirstName),&quot; &quot;,trim(contactlastName)) as namesss from customers  #giving space</ENTRY>
+<ENTRY timestamp='22:29:08'>~</ENTRY>
+<ENTRY timestamp='22:29:17'>select  concat(trim(contactFirstName),&quot; &quot;,trim(contactlastName)) as namesss from customers  #giving space</ENTRY>

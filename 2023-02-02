@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ENTRY timestamp='09:49:43'>select * from empinfo where last_name = '%s'</ENTRY>
